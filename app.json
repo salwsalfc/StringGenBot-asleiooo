@@ -1,0 +1,52 @@
+{
+  "name": "المطور علي ",
+  "description": "A Telegram Bot to generate Telethon and Pyrogram String Session.",
+  "logo": "https://graph.org/file/9e90986cd4964303776a8.jpg",
+  "keywords": [
+    "telegram",
+    "bot",
+    "python",
+    "pyrogram"
+  ],
+    "buildpacks": [{
+    "url": "heroku/python"
+  }],
+  "repository": "https://github.com/qithoniq/StringGenBot",
+  "env": {
+    "ENVIRONMENT": {
+      "description": "لاتغير اي شي",
+      "required": true,
+      "value": "ANYTHING"
+    },
+    "API_ID": {
+      "description": "هنا ضع ايبي ايدي",
+      "required": true,
+      "value": ""
+    },
+    "API_HASH": {
+      "description": "هنا ضع ايبي هاش",
+      "required": true,
+      "value": ""
+    },
+    "OWNER_ID": {
+      "description": "معرف الشخص الذي يصبح مالك البوت ",
+      "required": true,
+      "value": ""
+    },
+    "MONGO_DB_URI": {
+      "description": "Get this value from cloud.mongodb.com",
+      "required": true,
+      "value": ""
+    },
+    "MUST_JOIN": {
+      "description": "قناة البوت بدون @",
+      "required": true,
+      "value": "DevilsHeavenMF"
+    },
+    "BOT_TOKEN": {
+      "description": "هنا ضع توكن البوت ",
+      "required": true,
+      "value": ""
+    }
+  }
+}
